@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comerica Web Banking® | Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<main class="login-page">
+  <section class="login-card">
+
+    <div class="login-card-header">Log In</div>
+
+    <div class="login-card-body">
+      <h1>Welcome to Comerica Web Banking®</h1>
+      <p>Fields marked with an <span class="required">*</span> are required.</p>
+
+      <!-- User ID -->
+      <div class="form-group">
+        <label>User ID:</label>
+        <div class="input-row">
+          <input type="text">
+          <span class="asterisk">*</span>
+        </div>
+      </div>
+
+      <div class="checkbox-row">
+        <input type="checkbox" id="saveId">
+        <label for="saveId">Save User ID</label>
+      </div>
+
+      <!-- Password -->
+      <div class="form-group">
+        <label>Password:</label>
+        <div class="password-row">
+          <div class="input-row password-input">
+            <input type="password">
+            <i class="ri-eye-off-fill toggle-password"></i>
+            <span class="asterisk">*</span>
+          </div>
+          <a href="#" class="forgot-link">Forgot Your Password?</a>
+        </div>
+      </div>
+
+      <!-- Login Button -->
+      <button class="login-btn">Log In</button>
+
+      <!-- Dropdown -->
+      <div class="form-group go-to-group">
+
+        <label>Go to:</label>
+        
+        <select>
+
+            <option>My Default Destination</option>
+            <option>Accounts</option>
+            <option>Bill Pay</option>
+            <option>eStatements</option>
+            <option>Mobile Banking / Alerts</option>
+            <option>Overview</option>
+            <option>Transfers</option>
+        </select>
+        
+        
+      </div>
+       <div class="checkbox-row checkbox-indent">
+
+        <input type="checkbox" id="defaultPage">
+
+        <label for="defaultPage">Make this page my default destination</label>
+
+       </div>
+    </div>
+    <div class="form-footer footer-spacing">
+        <a href="#">Set Up Web Banking</a>
+
+        <p>
+         Questions? Check our FAQ, Contact us, or call
+         <strong>888.444.9876</strong>.
+        </p>
+       
+    </div>
+
+  </section>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
